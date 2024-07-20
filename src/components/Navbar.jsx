@@ -19,9 +19,9 @@ function Navbar({setExtendSidebar}) {
        </NavLink>
       </div>
 
-      <div className="flex items-center md:gap-3 gap-1 w-fit md:w-[50%] justify-center flex-shrink">
+      <div className="flex items-center md:gap-3 gap-1 w-fit  justify-center flex-shrink">
         <form className="flex items-center rounded-full border-white border-2">
-          <input className="bg-searchC2 text-sm md:text-xl flex-1 w-[500px] bg-transparent  focus:outline-blue-400 focus:outline-2 px-2 py-2 md:px-6 md:py-2 rounded-l-full " type="text" placeholder="Search" />
+          <input className="bg-searchC2 text-sm md:text-xl flex-1  bg-transparent  focus:outline-blue-400 focus:outline-2 px-2 py-2 md:px-6 md:py-2 rounded-l-full " type="text" placeholder="Search" />
           <p className="px-2 py-2 md:px-6 md:py-3 text-xl h-full bg-searchC cursor-pointer rounded-r-full">
             <IoSearch />
           </p>

@@ -11,7 +11,7 @@ import { LuNewspaper } from "react-icons/lu";
 function Sidebar({extendSidebar, category, setCategory}) {
   return (
     <main className={extendSidebar ? "main w-screen h-screen overflow-hidden top-[8vh] left-0 fixed z-20 transition-all duration-300" : ""}>
-    <div className={`sidebar px-[23px] py-3 md:sticky md:translate-x-0 top-[8vh]  absolute translate-x-[-100%] left-0 h-[92vh] bg-bgColor transition-all duration-300 overflow-y-scroll  ${extendSidebar ? "w-[250px] translate-x-[0px] top-[0] " : "w-24"}`}>
+    <div className={`sidebar px-[23px] py-3 md:sticky md:translate-x-0   absolute translate-x-[-100%] left-0 h-[92vh] bg-bgColor transition-all duration-300 overflow-y-scroll  ${extendSidebar ? "w-[250px] translate-x-[0px] top-[0] " : "w-24 top-[8vh]"}`}>
         <div className="gap-1 flex flex-col pb-4 ">
           <p className={`flex items-center gap-5 text-base p-2 rounded-lg hover:bg-color1 cursor-pointer ${category === 0 ? "bg-color2" : ""} ${extendSidebar ? "w-full" : "w-fit"}`} onClick={() => setCategory(0)}>
             {category === 0 ? <GoHomeFill className="text-2xl" /> : <GoHome className="text-2xl" />}
