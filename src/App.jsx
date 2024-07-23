@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Video from "./Pages/Video"
 import Sidebar from "./components/Sidebar";
 function App() {
-  const [extendSidebar, setExtendSidebar] = useState(true);
+  const [extendSidebar, setExtendSidebar] = useState(false);
   
 
   return (
